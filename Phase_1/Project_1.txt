@@ -1,0 +1,29 @@
+//Type Casting
+
+public class typesCasting {
+    public static void main(String[] args) {
+
+        int a = 10;
+        long b = a;
+        float c = a;
+        double d = a;
+
+        System.out.println("Implicit Type Casting:");
+        System.out.println("int: " + a);
+        System.out.println("long: " + b);
+        System.out.println("float: " + c);
+        System.out.println("double: " + d);
+
+
+        double doubleNum = 45.67;
+        float floatNum = (float) doubleNum;
+        long longNum = (long) doubleNum;
+        int intNum = (int) doubleNum;
+
+        System.out.println("\nExplicit Type Casting:");
+        System.out.println("double: " + doubleNum);
+        System.out.println("float: " + floatNum);
+        System.out.println("long: " + longNum);
+        System.out.println("int: " + intNum);
+    }
+}
